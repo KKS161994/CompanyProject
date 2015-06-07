@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Avshesh Version 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+    <string-array name="state">
+        <item name="sel_state">Select State</item>
+        <item name="delhi">Delhi</item>
+        <item name="haryana">Haryana</item>
+        <item name="uttar_pradesh">Uttar Pradesh</item>
+        <item name="west_bengal">West Bengal</item>
+    </string-array>
+
+
+
+
+    <string name="title_activity_sign_up_or_in">SignUpOrInActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_buyer">BuyerActivity</string>
+    <string name="title_activity_seller">SellerActivity</string>
+    <string name="title_activity_sign_up_seller_buyer">SignUpSellerBuyer</string>
+    <string name="title_activity_profile_setup_seller">ProfileSetupSeller</string>
+    <string name="title_activity_profile_setup_buyer">ProfileSetupBuyer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

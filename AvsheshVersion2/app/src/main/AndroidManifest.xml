@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kaustav.test.android.avsheshversion2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpOrInActivity"
+            android:label="@string/title_activity_sign_up_or_in" >
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".BuyerActivity"
+            android:label="@string/title_activity_buyer" >
+        </activity>
+        <activity
+            android:name=".SellerActivity"
+            android:label="@string/title_activity_seller" >
+        </activity>
+        <activity
+            android:name=".SignUpSellerBuyer"
+            android:label="@string/title_activity_sign_up_seller_buyer"
+            android:parentActivityName=".SignUpActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="SignUpActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileSetupSeller"
+            android:label="@string/title_activity_profile_setup_seller"
+            android:parentActivityName=".SignUpSellerBuyer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaustav.test.android.avsheshversion2.SignUpSellerBuyer" />
+        </activity>
+        <activity
+            android:name=".ProfileSetupBuyer"
+            android:label="@string/title_activity_profile_setup_buyer"
+            android:parentActivityName=".SignUpSellerBuyer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaustav.test.android.avsheshversion2.SignUpSellerBuyer" />
+        </activity>
+    </application>
+
+</manifest>

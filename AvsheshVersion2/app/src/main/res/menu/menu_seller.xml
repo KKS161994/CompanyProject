@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kaustav.test.android.avsheshversion2.SellerActivity">
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="200"
+        android:title="Notifications"
+        android:icon="@drawable/ic_action_email_white"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="300"
+        android:title="Add"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

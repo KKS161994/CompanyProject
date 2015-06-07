@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPrimary"
+    tools:context="kaustav.test.android.avsheshversion2.SignUpSellerBuyer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Sign Up"
+                android:paddingTop="100dp"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/signup_as"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="phone"
+                android:ems="10"
+                android:hint="Primary mobile number"
+                android:id="@+id/mob_no_editText"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="Password"
+                android:id="@+id/pass_editText"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:id="@+id/cnf_pass_editText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Please provide your business phone number"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="I agree with Avshesh's terms &amp; conditions"
+                android:id="@+id/checkBox_terms"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Start"
+                android:id="@+id/start_sign_up"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

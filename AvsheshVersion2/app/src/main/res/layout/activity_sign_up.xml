@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPrimary"
+    tools:context="kaustav.test.android.avsheshversion2.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/abc_action_bar_default_height_material"
+                android:src="@drawable/reuse"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Welcome to Avshesh"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Marketplace for Scrap dealing"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/abc_action_bar_default_height_material"
+                android:paddingTop="@dimen/abc_action_bar_default_height_material"
+                android:background="@drawable/sign_up_in_back"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Please Choose"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up As Seller"
+                    android:layout_gravity="center"
+                    android:id="@+id/sign_up_seller"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up As Buyer"
+                    android:layout_gravity="center"
+                    android:id="@+id/sign_up_buyer"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
